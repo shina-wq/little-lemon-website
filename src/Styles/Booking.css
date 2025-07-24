@@ -44,10 +44,20 @@
   border-radius: 8px;
   font-family: var(--font-body);
   resize: vertical;
+  background-color: #fdfdfd;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.booking-form input:focus,
+.booking-form select:focus,
+.booking-form textarea:focus {
+  outline: none;
+  border-color: var(--primary-green);
+  background-color: #fff;
 }
 
 .booking-form textarea {
-  min-height: 80px;
+  min-height: 100px;
 }
 
 .btn-submit {
@@ -63,4 +73,22 @@
 
 .btn-submit:hover {
   background-color: #e5c313;
+}
+
+.error {
+  color: #d93025;
+  font-size: 0.85rem;
+  margin-top: 0.25rem;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .booking {
+    padding: 1.25rem;
+    margin: 2rem 1rem;
+  }
+
+  .btn-submit {
+    width: 100%;
+  }
 }
