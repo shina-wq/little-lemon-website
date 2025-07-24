@@ -37,8 +37,8 @@ Little Lemon is a fictional Mediterranean restaurant. This website was built to 
 ## Setup & Run Locally
 
 ```bash
-git clone https://github.com/shina-wq/little-lemon-booking.git
-cd little-lemon-booking
+git clone https://github.com/shina-wq/little-lemon-website.git
+cd little-lemon-website
 npm install
 npm start
 ```
