@@ -1,0 +1,106 @@
+.menu-page {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: var(--dark-gray);
+  font-family: var(--font-body);
+}
+
+.menu-page h2 {
+  text-align: center;
+  font-size: 2.8rem;
+  margin-bottom: 2rem;
+  font-family: var(--font-heading);
+  color: var(--primary-green);
+}
+
+.menu-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.menu-controls input {
+  padding: 0.7rem 1rem;
+  width: 300px;
+  border: 1px solid var(--light-gray);
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  justify-content: center;
+}
+
+.categories button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 20px;
+  background-color: var(--light-gray);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: 500;
+}
+
+.categories button.active,
+.categories button:hover {
+  background-color: var(--primary-yellow);
+  color: black;
+}
+
+.menu-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+}
+
+.menu-item {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.menu-item:hover {
+  transform: translateY(-5px);
+}
+
+.menu-item img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.menu-item h3 {
+  color: var(--primary-green);
+  margin: 0.5rem 0;
+  font-size: 1.4rem;
+}
+
+.menu-item p {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  margin-bottom: 0.8rem;
+}
+
+.menu-item span {
+  font-weight: bold;
+  color: var(--primary-yellow);
+  font-size: 1rem;
+}
+
+.no-results {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-top: 2rem;
+  color: gray;
+}

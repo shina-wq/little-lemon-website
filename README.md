@@ -1,18 +1,44 @@
-# Little Lemon Booking App
+# Little Lemon Restaurant
 
-Built for the Coursera Meta Front-End Developer Capstone.
+This is the final capstone project for the **Meta Frontend Developer Professional Certificate** on Coursera.
+
+## Overview
+
+Little Lemon is a fictional Mediterranean restaurant. This website was built to demonstrate the skills learned throughout the certificate including:
+
+- Semantic, accessible HTML
+- Responsive CSS styling
+- React components and hooks
+- Form handling and validation
+- React Router navigation
+- UI enhancements (animations, layout, feedback)
 
 ## Features
 
-- Controlled form with validation
-- React Router for confirmation page
-- Accessible labels & semantic tags
-- Responsive layout, unit tests
+- Fully responsive homepage, menu, booking, and about pages
+- Table reservation form with confirmation and booking summary
+- Styled using modern CSS practices
+- React Router for multi-page navigation
+- Confetti animation on successful booking 🎉
 
-## Setup
+## Tech Stack
+
+- React
+- React Router
+- CSS Modules
+- JavaScript (ES6+)
+
+## Screenshot
+
+![Little Lemon Screenshot](./screenshot.png)
+
+---
+
+## Setup & Run Locally
 
 ```bash
+git clone https://github.com/shina-wq/little-lemon-booking.git
+cd little-lemon-booking
 npm install
 npm start
-npm test
 ```
