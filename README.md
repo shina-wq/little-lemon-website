@@ -32,7 +32,8 @@ Little Lemon is a fictional Mediterranean restaurant. This website was built to 
 
 ![Little Lemon Screenshot](./screenshot.png)
 
----
+## Live Site
+[Live Site Url](https://little-lemon-website-indol.vercel.app/)
 
 ## Setup & Run Locally
 
